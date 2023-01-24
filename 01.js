@@ -11,8 +11,14 @@ function soloNumeros(array) {
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
   // Tu código 
-  var soloNumeros = [1 , 'Osvaldo' , 2]; 
-  console.log(soloNumeros [0],[2]);
+  var soloNumeros1 = [];
+for (let i = 0; i < array.length; i++) {
+  const element = array[i];
+  if (isNaN(element) === false) {
+    soloNumeros1.push(element);
+  }
+}
+return soloNumeros1;
 }
 
 // No modifiques nada debajo de esta linea //
