@@ -14,13 +14,13 @@ function buscarAmigo(amigos, nombre) {
   //  buscarAmigo(amigos, 'toni') debe devolver { nombre: 'toni', edad: 33 };
 
   // Tu código aca:
-  var obj = [
+  var buscarAmigo = [
     { nombre: 'toni', edad: 23 },
     { nombre: 'emi', edad: 20 },
    
 ];
  
-var found = obj.find(e => e.nombre === 'John');
+var found = buscarAmigo.find(e => e.nombre === 'John');
 console.log(found);
   
 }
