@@ -10,8 +10,9 @@ function soloNumeros(array) {
   // Ej: 
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
-  // Tu código aca:
-
+  // Tu código 
+  var soloNumeros = [1 , 'Osvaldo' , 2]; 
+  console.log(soloNumeros [0],[2]);
 }
 
 // No modifiques nada debajo de esta linea //
